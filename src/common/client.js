@@ -20,7 +20,7 @@ export default function qdrantClient({ apiKey }) {
   //   }
   // }
   url = process.env.QDRANT_URL
-  port = procees.env.QDRANT_PORT
+  port = process.env.QDRANT_PORT
 
   let options = {
     url,
