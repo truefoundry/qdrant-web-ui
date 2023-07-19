@@ -19,8 +19,8 @@ export default function qdrantClient({ apiKey }) {
   //     }
   //   }
   // }
-  url = "http://qdrant"
-  port = "6333"
+  url = "https://qdrant-6333.tfy-gcp-standard-usce1.devtest.truefoundry.tech/"
+  // port = "6333"
 
   let options = {
     url,
