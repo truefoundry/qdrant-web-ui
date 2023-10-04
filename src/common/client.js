@@ -19,7 +19,7 @@ export default function qdrantClient({ apiKey }) {
   //     }
   //   }
   // }
-  url = "https://qdrant-6333.tfy-gcp-standard-usce1.devtest.truefoundry.tech/"
+  url = "https://qdrantpj.demo2.truefoundry.tech/"
   port = 443;
 
   let options = {
