@@ -19,7 +19,7 @@ export default function qdrantClient({ apiKey }) {
   //     }
   //   }
   // }
-  url = import.meta.env.QDRANT_URL;
+  url = import.meta.env.VITE_QDRANT_URL;
   port = 443;
 
   let options = {
