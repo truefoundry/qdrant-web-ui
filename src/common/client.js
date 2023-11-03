@@ -24,6 +24,7 @@ export default function qdrantClient({ apiKey }) {
 
   let options = {
     url,
+    apiKey,
     port,
   };
 
