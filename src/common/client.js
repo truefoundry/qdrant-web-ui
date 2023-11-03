@@ -19,7 +19,7 @@ export default function qdrantClient({ apiKey }) {
   //     }
   //   }
   // }
-  url = process.env.QDRANT_URL;
+  url = "https://chatgtm-qdrant-chatgtm.ml.haveignition.info/";
   port = 443;
 
   let options = {
