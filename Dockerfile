@@ -15,10 +15,10 @@ RUN npm install && npm install -g serve
 COPY . .
 
 # Build react app
-RUN npm run build
+# RUN npm run build
 
 # Expose port 3000
 EXPOSE 3000
 
 # Start the app
-CMD ["serve", "-s", "build"]
+CMD ["npm", "run", "serve"]
