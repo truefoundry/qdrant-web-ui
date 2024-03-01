@@ -33,7 +33,7 @@
     "react-dom": "^18.2.0",
     "react-resizable-panels": "^0.0.51",
     "react-router-dom": "^6.8.1",
-    "vite": "^4.3.3",
+    "vite": "^4.5.0",
     "vite-plugin-svgr": "^2.4.0",
     "web-vitals": "^2.1.4"
   },
@@ -43,7 +43,7 @@
     "start": "vite",
     "build": "vite build --base './'",
     "build-qdrant": "vite build --base '/dashboard/'",
-    "serve": "vite preview",
+    "serve": "VITE_QDRANT_URL=$npm_config_qdrant_url npm run build && serve -s build",
     "lint": "eslint ."
   },
   "browserslist": {
