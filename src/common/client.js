@@ -19,7 +19,7 @@ export default function qdrantClient({ apiKey }) {
   //     }
   //   }
   // }
-  url = "https://truefoundry.merck.com/docs-qa-staging-qdrant/"
+  url = "https://truefoundry.merck.com/qdrant-development-docs-qa-development/"
   port = 443;
 
   let options = {
