@@ -27,7 +27,7 @@ export default function qdrantClient({ apiKey }) {
     apiKey,
     port,
     headers: {
-      "x-route-service": "qdrant-staging.docs-qa-staging",
+      "x-route-service": "qdrant-production.docs-qa-production",
     }
   };
 
