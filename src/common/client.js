@@ -19,13 +19,16 @@ export default function qdrantClient({ apiKey }) {
   //     }
   //   }
   // }
-  url = "https://truefoundry.merck.com/docs-qa-staging-qdrant/"
+  url = "https://truefoundry.merck.com/"
   port = 443;
 
   let options = {
     url,
     apiKey,
     port,
+    headers: {
+      "x-route-service": "qdrant-staging.docs-qa-staging",
+    }
   };
 
   return new QdrantClient(options)
