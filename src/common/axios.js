@@ -7,6 +7,7 @@ function setupAxios({apiKey}) {
   if (apiKey) {
     axios.defaults.headers.common["api-key"] = apiKey;
   }
+  axios.defaults.headers.common["x-route-service"] = "qdrant-staging.docs-qa-staging";
 }
 
 export default setupAxios;
